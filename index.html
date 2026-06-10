@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fliqs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #ccc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container { text-align: center; }
+    .logo { font-size: 64px; margin-bottom: 12px; }
+    h1 { color: #fff; font-size: 32px; margin-bottom: 8px; }
+    .subtitle { color: #666; font-size: 15px; margin-bottom: 24px; }
+    .link { color: #E85D3A; text-decoration: none; font-size: 14px; }
+    .link:hover { text-decoration: underline; }
+  </style>
+  <script>
+    // If Supabase redirects here with auth tokens (password reset), redirect to reset page
+    if (window.location.hash && window.location.hash.includes('access_token')) {
+      window.location.href = '/fliqs-site/reset-password.html' + window.location.hash
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🎬</div>
+    <h1>Fliqs</h1>
+    <p class="subtitle">Your personal streaming companion</p>
+    <a class="link" href="privacy.html">Privacy Policy</a>
+  </div>
+</body>
+</html>
