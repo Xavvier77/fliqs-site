@@ -25,8 +25,10 @@
   </style>
   <script>
     // If Supabase redirects here with auth tokens (password reset), redirect to reset page
-    if (window.location.hash && window.location.hash.includes('access_token')) {
-      window.location.href = '/fliqs-site/reset-password.html' + window.location.hash
+    const hash = window.location.hash
+    const search = window.location.search
+    if ((hash && hash.includes('access_token')) || (search && search.includes('token'))) {
+      window.location.href = '/fliqs-site/reset-password.html' + hash + (hash ? '&' : '#') + search.replace('?', '')
     }
   </script>
 </head>
