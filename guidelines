@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fliqs — Community Guidelines</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1a1a1a; max-width: 760px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  h3 { font-size: 17px; margin-top: 24px; }
+  a { color: #E85D3A; }
+  ul { padding-left: 22px; }
+  .updated { color: #666; font-size: 14px; }
+  .callout { background: #fff4f0; border-left: 3px solid #E85D3A; padding: 12px 16px; border-radius: 4px; margin: 20px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+  th { color: #666; font-size: 14px; }
+  footer { margin-top: 40px; color: #888; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Community Guidelines</h1>
+<p class="updated">Last updated: September 14, 2026</p>
+
+<p>Fliqs is a place to track what you're watching and talk about it with friends. These guidelines explain what we expect from everyone here, and what happens when someone doesn't meet it.</p>
+
+<p>These guidelines sit alongside our <a href="terms.html">Terms of Service</a>. Section 4 of the Terms lists the content and behavior that are not allowed on Fliqs. This page explains how we enforce that.</p>
+
+<h2>What's not allowed</h2>
+<p>In short: don't post content, or behave in ways, that are harassing or bullying, hateful or discriminatory, sexually explicit, violent or threatening, spam, deceptive or impersonating, or that encourage self-harm. The full list is in <a href="terms.html">section 4 of our Terms</a>.</p>
+
+<h2>Spoilers</h2>
+<p>Fliqs is built around shows and movies, so spoilers get their own rule. Use the spoiler toggle when you're posting or commenting about a plot point, twist, or ending that someone who hasn't caught up would rather not see.</p>
+<ul>
+  <li>An untagged spoiler may be removed. That's it. No strike, no suspension.</li>
+  <li>If you keep posting untagged spoilers after being asked to stop, it counts as one violation.</li>
+  <li>Deliberately spoiling something to upset a specific person is harassment, and is handled as harassment.</li>
+</ul>
+
+<h2>What happens when a rule is broken</h2>
+<p>When we remove content, we'll tell you what was removed and why. Most enforcement follows this pattern:</p>
+
+<table>
+  <tr><th>Violations in 90 days</th><th>What happens</th></tr>
+  <tr><td>First</td><td>Content removed, warning</td></tr>
+  <tr><td>Second</td><td>Content removed, 3-day suspension</td></tr>
+  <tr><td>Third</td><td>Content removed, 14-day suspension</td></tr>
+  <tr><td>Fourth</td><td>Content removed, 30-day suspension</td></tr>
+  <tr><td>Fifth</td><td>Indefinite suspension</td></tr>
+</table>
+
+<p>While suspended, you can still sign in and see your own account, but your posts and comments are not visible to other people, and you can't interact with anyone. Timed suspensions end on their own; you don't need to do anything.</p>
+
+<h3>Violations expire</h3>
+<p>A violation stops counting toward the steps above 90 days after it happens. Someone who slips up once and then has a clean year is not treated as a repeat offender.</p>
+
+<h3>Serious violations skip the steps</h3>
+<div class="callout">
+<p><strong>Some things result in an immediate, indefinite suspension, with no warning and no steps:</strong></p>
+<ul>
+  <li>Credible threats of violence against a person or group</li>
+  <li>Any sexual content involving a minor</li>
+  <li>Sharing someone's private information without their consent</li>
+  <li>Organizing or joining a coordinated campaign of harassment against someone</li>
+</ul>
+</div>
+<p>Sexual content involving minors is also reported to the National Center for Missing &amp; Exploited Children, as US law requires.</p>
+
+<h3>We use judgment</h3>
+<p>The table above describes what usually happens, not a machine that runs automatically. Context matters, and we may act more or less strictly depending on the circumstances, including removing an account immediately if it exists only to cause harm.</p>
+
+<h2>If you think we got it wrong</h2>
+<p>We may get a decision wrong, and we'd rather hear about it than not. To appeal a removal or a suspension, email <a href="mailto:fliqssupport@gmail.com">fliqssupport@gmail.com</a> from the address on your Fliqs account, and tell us what was removed and why you think the decision was mistaken.</p>
+<p><strong>We'll reply within 7 days.</strong> If we agree with you, we'll restore the content, lift the suspension, and clear the violation from your record.</p>
+
+<h2>Reporting something</h2>
+<p>You can report any post, comment, or profile from inside the app. Tap the <strong>···</strong> menu on a post or comment, or <strong>Report User</strong> on a profile.</p>
+<p>We review every report and act within 24 hours. We never tell the person you reported who reported them. If you'd also rather not see someone at all, you can block them from their profile, which works in both directions.</p>
+<p>Please don't file reports you know to be false. Reporting is limited to prevent abuse of the system, and deliberately false reports may themselves be treated as a violation.</p>
+
+<h2>Changes to these guidelines</h2>
+<p>We may update these guidelines from time to time. We will notify users of significant changes through the app or by updating the date at the top of this page.</p>
+
+<footer>
+<p>Questions: <a href="mailto:fliqssupport@gmail.com">fliqssupport@gmail.com</a> · <a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
+<p>© 2026 Fliqs. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
