@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Draft — pending legal review -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,7 +11,6 @@
   h2 { font-size: 22px; margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
   h3 { font-size: 18px; margin-top: 24px; }
   a { color: #E85D3A; }
-  code { background: #f4f4f4; padding: 1px 4px; border-radius: 4px; }
   ul { padding-left: 22px; }
   .updated { color: #666; font-size: 14px; }
   footer { margin-top: 40px; color: #888; font-size: 14px; }
@@ -19,129 +19,162 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: July 27, 2026</p>
+<p class="updated">Effective date: November 4, 2026</p>
 
-<p>Fliqs ("we," "our," or "the app") is a social streaming companion that helps you track shows and movies, connect with friends, and discover new content. This policy explains what information we collect, how we use it, who can see it, and your choices.</p>
+<!-- Replace with LLC name if formed. -->
+<p>Fliqs is a social companion for tracking shows and movies. It is operated by Jonah Walker ("Fliqs," "we," or "us"). This policy explains what we collect, who can see it, how long we keep it, and the choices you have. Our <a href="terms.html">Terms of Service</a> and <a href="guidelines.html">Community Guidelines</a> sit alongside this policy.</p>
 
-<h2>Information We Collect</h2>
+<h2>Information we collect</h2>
 
-<h3>Account Information</h3>
-<p>When you create an account, we collect your email address and display name. If you sign in with Google, we receive your name and email from Google. If you sign in with Apple, we receive your name and email from Apple (Apple may provide a private relay email if you choose to hide your address). We do not store your Google or Apple password. We also store your device's time zone so that daily features, reminders, and release dates display correctly for your location; this is a general time zone (e.g., "America/New_York"), not precise location data.</p>
+<h3>Account</h3>
+<p>When you create an account we collect your email address. If you sign up with email and a password, our authentication provider stores the password as a hash. We do not receive your Google or Apple password. If you use Google Sign-In, we receive your name and email from Google. If you use Sign in with Apple, we receive your name and email from Apple. Apple may give us a private relay address if you hide your email. A sign-in session is stored on your device.</p>
+<p>We store the fact that you accepted the Terms, and whether the account is deactivated.</p>
 
-<h3>Profile Information</h3>
-<p>You may provide a username, bio (favorite quote), profile emoji, and profile photo. Profile photos are uploaded to our storage servers and are accessible via a public URL. Your profile includes a privacy toggle that controls whether your activity feed is visible to non-friends and whether you appear in user search results.</p>
+<h3>Profile</h3>
+<p>You can add a display name, username, bio, profile emoji, and eye color, and you can set the profile to public or private. You can also choose whether your name appears on trivia leaderboards, within the age rules below.</p>
+<p>Profile photos and banner images are stored in a public storage bucket. Any signed-in user can see your profile photo on your card. Your banner is part of your full profile, not the card. Because the files are public, anyone who has the file address can open the image, including outside the app. We ask for camera or photo-library access only so you can choose an image to upload. We do not upload your camera roll.</p>
 
-<h3>Watch Activity &amp; Ratings</h3>
-<p>We store information about the shows and movies you track, including your watch status (watching, finished, watchlisted, dropped), episode-level watch progress, ratings, start and completion dates, rewatch counts, and your ranked top picks. We also store when you dismiss episode reminder cards from your home screen.</p>
+<h3>Age</h3>
+<p>We collect your birth month and year, not the day. We use them to confirm you are 13 or older and to apply the teen rules. They are visible to you and to us. They are not shown on your profile or on leaderboards. You can change them only to a younger age.</p>
+<p>Apple's age range may be used in a future update to apply these rules. That feature is not live, and we do not collect an Apple age range today.</p>
+<p>If a signup attempt says the person is under 13, we delete any account created for that attempt. That device then stores a block for 30 days so the signup cannot be repeated right away. The block is a timestamp on the device only. It does not include a birth date, email address, or account id. Uninstalling the app removes it. It also expires on its own after 30 days.</p>
 
-<h3>Social Activity</h3>
-<p>We store your friend connections, best friend designations, posts, comments, reactions, @mentions, blocked user relationships, and direct title recommendations you send or receive to other users.</p>
+<h3>Watching</h3>
+<p>We store the titles you track and the status you set (watchlist, watching, finished, or dropped), episode checkoffs, a progress summary, title ratings, and season ratings. Reviews you write are stored as posts, including the text, a rating, and whether you marked a spoiler.</p>
+<p>We store the streaming services you select, and the answers you give on the optional taste questionnaire. Those answers are stored for personalization. Recommendation scoring does not use them today.</p>
+<p>We store your device's time zone name, such as America/New_York, so "today" and the 8pm trivia reminder match your local day. This is not GPS, and it is not your precise location.</p>
 
-<h3>Reports and Requests</h3>
-<p>If you report content or another user, we store the report — including your account identifier, what you reported, the reason you selected, and any additional detail you choose to provide — so that our team can review it. If you submit a request for a streaming service to be added, we store the service name and any note you include, along with your account identifier, so we can prioritize which services to support.</p>
+<h3>Social</h3>
+<p>We store friend connections, best-friend marks, and blocks. We store posts, comments, likes, and mentions of friends you tag. We store posts you hide from your own feed. If you send someone a title, we store the title, who sent it, who received it, and any note you include. If you follow a cast member, we store that person's catalog id, name, and photo path.</p>
 
-<h3>Games &amp; Trivia</h3>
-<p>When you play games or daily trivia, we store your submissions including guesses, whether you solved the puzzle, time taken, hints used, and your leaderboard ranking. Your display name and avatar appear on public leaderboards.</p>
+<h3>Trivia, leaderboards, and kudos</h3>
+<p>We store your trivia answers and your own trivia stats. The leaderboard shows rank and time. It shows your name and profile photo unless your result is anonymous. Kudos are short reactions on a finish. We store who sent one, who received it, and the reaction. Counts appear on the leaderboard. If you are not anonymous, the recipient's alert includes your name. If you are anonymous, the alert says "A trivia player" and does not include your account.</p>
 
-<h3>Preferences</h3>
-<p>We store your selected streaming services (e.g., Netflix, Hulu, Max) and optional taste preferences from the onboarding questionnaire.</p>
+<h3>Recommendations</h3>
+<p>For You stores the titles we showed you, how they were ranked, which friends they relate to, a score, and the kind of impression. It also stores what you did afterward, such as watching, finishing, or rating, and the path you took, such as search or a friend. If you mark a card "not interested," "already seen," or "bad match," we store that feedback.</p>
+<p>If you open a title from someone else's post, we store that you opened it and whether you later finished or rated it. We use that for badges. It is not a public feed.</p>
 
-<h3>Recommendation Analytics</h3>
-<p>To improve content suggestions on your "For You" feed, we track which recommendations you see, which you interact with, and outcomes such as whether you added a recommended title to your list or rated it. We also track when you dismiss a recommendation and the reason you provide (e.g., "not interested," "already seen").</p>
-
-<h3>Device Information</h3>
-<p>If you enable push notifications, we store your device's push notification token and platform (iOS or Android). We do not collect device identifiers for advertising purposes.</p>
-
-<h3>Local Device Storage</h3>
-<p>We store authentication tokens, UI preferences (such as feed filter settings, recent searches, and tutorial completion), and temporary game state on your device. This data is not transmitted to our servers beyond what is described above.</p>
-
-<h3>Information We Do Not Collect</h3>
-<ul>
-  <li>Precise location data</li>
-  <li>Contacts or phone numbers</li>
-  <li>Financial or payment information</li>
-  <li>Device identifiers for advertising</li>
-</ul>
-
-<h2>How We Use Your Information</h2>
-<ul>
-  <li>Provide and maintain the app's features including tracking, social feed, discovery, games, and personalized recommendations</li>
-  <li>Display your profile to other users based on your privacy settings</li>
-  <li>Show you where titles are available to stream based on your selected services</li>
-  <li>Send you alerts about new episodes, friend requests, comments, reactions, and other social activity</li>
-  <li>Generate leaderboards for trivia and games</li>
-  <li>Improve recommendation quality based on your interactions and feedback</li>
-  <li>Review reports of content or users, and take action on violations of our Terms of Service</li>
-</ul>
-
-<h2>Who Can See Your Information</h2>
-
-<h3>Public Profiles</h3>
-<p>If your profile is set to public, other users can find you in search and view your profile information, watch activity, top picks, badges, stats, and activity feed.</p>
-
-<h3>Private Profiles</h3>
-<p>If your profile is set to private, you will not appear in user search results. If another user navigates to your profile (for example, from a friend request you sent), they can see your basic profile information (name, username, bio, avatar) but they cannot see your watch activity, top picks, stats, badges, or activity feed posts unless they are an accepted friend.</p>
-
-<h3>Trivia &amp; Game Leaderboards</h3>
-<p>Your display name and avatar are visible on daily trivia leaderboards regardless of your privacy setting.</p>
-
-<h3>Profile Photos</h3>
-<p>Uploaded profile photos are stored at publicly accessible URLs. Your profile photo is displayed wherever your avatar appears in the app, including friend lists, activity feeds, comments, alerts, and leaderboards.</p>
+<h3>Search</h3>
+<p>People search and title search are used to run that search. We do not keep a search history. Title search text is sent to TMDb for that request. The search tab keeps the current session in memory and clears it when you sign out.</p>
 
 <h3>Reports</h3>
-<p>Reports you submit are visible only to our moderation team, not to other users or to the person you reported.</p>
+<p>If you report a post, comment, or profile, we store your account, the target, the reason, any detail you add, and a snapshot of the content at that time. Our moderation team can see reports. We do not tell the reported person who filed the report. We also keep a moderation log of actions we take.</p>
 
-<h2>Content Moderation</h2>
-<p>Fliqs includes social features where users can post, comment, and interact. We do not tolerate objectionable content or abusive behavior. You can report any post, comment, or user profile from within the app, and you can block users. We review reports and act on violations — including removing content and, where warranted, suspending or removing accounts — within 24 hours. See our <a href="terms.html">Terms of Service</a> for the full rules that govern acceptable use.</p>
+<h3>Device and notifications</h3>
+<p>If you allow push notifications, we store that device's Expo push token and whether it is iOS or Android. Push is tied to the device. Signing out of Fliqs on a phone stops notifications on that phone and removes that phone's token. Tokens on your other phones stay until you sign out there or delete the account. Deactivating the account does not, by itself, delete tokens on other devices.</p>
+<p>If you turn on Siri, that iPhone keeps a token in its keychain. Our server stores a hash of the token, a device label, and the last time it was used. The label is the phone's model plus a short random suffix. It is not the name you gave the phone. We do not let the app read the hash back. Siri search text is sent to TMDb for that request and is not stored on your account. We store a short receipt of a Siri action so a retry does not run it twice. Turning Siri off, or signing out, revokes Siri on that phone. Deactivating does not revoke Siri on your other devices.</p>
+<p>The iPhone widget keeps a copy on that device of show names, the next episode, progress, poster images, your account id, and any "marked watched" actions waiting to sync. Fliqs does not put that copy on our servers or in iCloud. Signing out clears it.</p>
 
-<h2>Third-Party Services</h2>
-<p>Fliqs uses the following third-party services:</p>
+<h3>Information we do not collect</h3>
 <ul>
-  <li><strong>Supabase:</strong> Our backend provider for authentication, database, file storage, edge functions, and push notification relay. All user data described in this policy is stored on Supabase servers. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
-  <li><strong>The Movie Database (TMDb):</strong> We use the TMDb API to provide movie and TV show information, images, cast details, and streaming availability. No user account information is sent to TMDb — only content queries such as title searches and media IDs. This product uses the TMDb API but is not endorsed or certified by TMDb. <a href="https://www.themoviedb.org/privacy-policy">TMDb Privacy Policy</a></li>
-  <li><strong>JustWatch:</strong> Streaming availability data (where titles can be watched) is sourced from JustWatch via TMDb. <a href="https://www.justwatch.com/us/privacy-policy">JustWatch Privacy Policy</a></li>
-  <li><strong>TVMaze:</strong> We use the TVMaze API for accurate episode air dates. No user account information is sent to TVMaze — only show identifiers and name queries. <a href="https://www.tvmaze.com/privacy">TVMaze Privacy Policy</a></li>
-  <li><strong>Google Sign-In:</strong> If you choose to sign in with Google, authentication is handled through Google's OAuth service via Supabase. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-  <li><strong>Apple Sign-In:</strong> If you choose to sign in with Apple on iOS, authentication is handled through Apple's sign-in service. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
-  <li><strong>Expo Push Notifications:</strong> Push notifications are delivered through Expo's notification service using your device token. <a href="https://expo.dev/privacy">Expo Privacy Policy</a></li>
+  <li>Precise location or GPS</li>
+  <li>Contacts or phone numbers</li>
+  <li>Payment information</li>
+  <li>Advertising identifiers</li>
+  <li>A third-party analytics or crash-reporting kit</li>
 </ul>
-<p>We do not currently use third-party analytics, advertising, or crash reporting services, and we do not sell your data to third parties. If we introduce features such as affiliate links to ticketing or commerce partners in the future, we will update this policy to disclose any associated third-party tracking before those features become active.</p>
+<p>We do not show ads, we do not sell your information, and we do not use third-party tracking. Supabase and Expo keep their own operational logs of requests they handle. Those logs are described in their policies, linked below.</p>
 
-<h2>Data Storage and Security</h2>
-<p>Your data is stored securely using Supabase, which provides encrypted connections and row-level security policies to restrict data access. Authentication tokens are stored locally on your device. While no system is 100% secure, we take reasonable measures to protect your information.</p>
-
-<h2>Your Choices</h2>
+<h2>How we use information</h2>
 <ul>
-  <li>Set your profile to private so you don't appear in search and your activity feed is hidden from non-friends</li>
-  <li>Edit, hide, or delete your posts and comments at any time; hidden posts are only visible to you</li>
-  <li>Report posts, comments, or user profiles that violate our Terms of Service</li>
-  <li>Remove friends from your connections</li>
-  <li>Block users to prevent them from finding you in search or sending friend requests; blocking also removes any existing friendship</li>
-  <li>View and manage your blocked users from the settings screen</li>
-  <li>Delete your account directly from within the app, with the option to either permanently erase all of your data or deactivate your account while preserving your data for a future return</li>
+  <li>Run your account, sign-in, and the age rules</li>
+  <li>Show your profile, posts, and watch activity to the people allowed to see them</li>
+  <li>Track what you are watching and show where a title may be available</li>
+  <li>Send alerts you have turned on, including episode reminders, friend requests, comments, and kudos</li>
+  <li>Run trivia, leaderboards, and kudos</li>
+  <li>Build For You recommendations and award badges</li>
+  <li>Review reports and enforce our Terms and Community Guidelines</li>
+  <li>Remember that you accepted the Terms</li>
 </ul>
 
-<h2>Blocking</h2>
-<p>When you block a user, any existing friendship is removed, and neither of you can find the other in search or send friend requests. The blocked user will no longer see your activity feed, posts, or comments, and you will no longer see theirs. Historical comments or reactions made before the block may remain in the database but are hidden from both users' feeds going forward. You can unblock users at any time from the Blocked Users section in your settings.</p>
+<h2>Who can see it</h2>
 
-<h2>Account Deletion</h2>
-<p>You can delete your account at any time from the settings screen within the app. When deleting your account, you have two options:</p>
+<h3>You</h3>
+<p>You can see your own account, including your birth month and year, streaming services, taste answers, watch progress, trivia stats, For You activity, and recommendation activity.</p>
+
+<h3>A card every signed-in user can see</h3>
+<p>Any signed-in user can see a card with your name, username, profile emoji, and profile photo, including when your profile is private. Bio is not on that card.</p>
+<p>Search returns that card. People 16 and older can be found by a partial name or username. Ages 13–15 appear only when someone types their exact username. Search leaves out deactivated accounts, suspended accounts, and anyone blocked in either direction.</p>
+
+<h3>Full profile, watch activity, and posts</h3>
+<p>Your full profile includes your bio, banner, eye color, and similar profile fields. It is visible to you, to accepted friends, to any signed-in user if your profile is public, and to a person you have sent a pending friend request.</p>
+<p>Watch status, ratings, progress summaries, and the posts on your profile follow the same rule: you, your friends, or any signed-in user if the profile is public. Episode-by-episode checkoffs are stored as your progress and are not a separate public list. Friends can also see your posts in their home feed. A title recommendation is visible to you and the person you sent it to.</p>
+<p>Ages 13–15 are private and cannot switch to public.</p>
+
+<h3>Friends, blocks, and cast</h3>
+<p>A friendship or a block is visible to the two people involved. Blocks are not a public list. Blocking removes the friendship and hides you from each other in search and in the feed. Marking a best friend sends that friend an alert. Cast you follow is visible only to you.</p>
+
+<h3>Leaderboards and kudos</h3>
+<p>Any signed-in user who is not blocked or suspended can open the leaderboard and see rank and time. Name and profile photo are shown unless that player is anonymous. An anonymous player appears as "Anonymous Player" with no photo. You still see your own row.</p>
+<p>This follows the anonymity setting, not the public or private profile switch. Ages 13–15 are always anonymous and cannot turn that off. Ages 16–17 start anonymous and can opt out, which shows their name and photo. Adults start visible and can choose to be anonymous.</p>
+<p>Kudos counts are visible with the leaderboard row. The sender's name is visible to the recipient unless the sender is anonymous. Ages 13–15 can receive kudos only from friends.</p>
+
+<h3>Us, and not other users</h3>
+<p>Birth month and year, streaming services, taste answers, push tokens, Siri token hashes, Siri action receipts, For You signals, and recommendation clicks are for operating the app. Other users do not get a feed of them. Reports and the moderation log are visible to our moderation team, not to other users, and we do not tell a reported person who reported them.</p>
+
+<h2>Teens</h2>
+<p>Fliqs is for people 13 and older. We delete accounts that are under 13. After an under-13 signup attempt, that device is blocked from another signup for 30 days, as described above.</p>
 <ul>
-  <li><strong>Delete account and all data:</strong> Your account and associated data — including your profile, watch history, ratings, posts, comments, reactions, friend connections, game submissions, trivia answers, badges, alerts, streaming preferences, recommendation data, reports you have submitted, push notification tokens, and uploaded profile photos — will be permanently removed. Aggregate statistics (such as community game scores) that do not identify you individually may be retained. This action cannot be undone.</li>
-  <li><strong>Deactivate account (save data):</strong> Your account will be deactivated and your profile will no longer be visible to other users, but your data will be preserved. If you sign back in with the same account in the future, your account and data will be reactivated.</li>
+  <li><strong>Ages 13–15.</strong> The profile is private and cannot be made public. Leaderboards are anonymous and that cannot be turned off. Other people can find the account only by the exact username. Kudos can come only from friends.</li>
+  <li><strong>Ages 16–17.</strong> Leaderboards are anonymous by default. You can opt out and show your name and photo.</li>
+  <li><strong>Adults.</strong> Leaderboards show your name by default. You can switch to anonymous.</li>
 </ul>
-<p>You can also contact us at <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a> to request account deletion.</p>
+<p>Apple's age range may be used in a future update. It is not live.</p>
 
-<h2>Children's Privacy</h2>
-<p>Fliqs is intended for users aged 17 and older and is not directed at children. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us at <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a> and we will delete it.</p>
+<h2>Deactivate or delete</h2>
+<p>You can do either from the app, or email <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a> and ask us to delete the account.</p>
+<ul>
+  <li><strong>Deactivate</strong> hides your profile and keeps your data. You disappear from search, and the profile is set to private. Posts and other information stay stored. Signing in again reactivates the account. Reactivation does not turn the profile public again. It stays private until you change it, and ages 13–15 stay private either way. Deactivating does not remove push tokens or Siri access on other devices. Signing out of a device stops push and Siri on that device.</li>
+  <li><strong>Delete</strong> is permanent. We remove the account and the information tied to it, including your profile, watch history, posts, friends, trivia, recommendations, reports you filed, push tokens, and Siri data. Two limits: moderation log entries are kept, with your account removed from the record of who acted, and those entries are not shown to other users. Deleting your profile photo and banner is best-effort. If that cleanup fails, the account is still deleted, and the file may remain in storage until it can be removed.</li>
+</ul>
 
-<h2>Changes to This Policy</h2>
-<p>We may update this privacy policy from time to time. We will notify users of significant changes through the app or by updating the date at the top of this page.</p>
+<h2>How long we keep it</h2>
+<p>We keep the information in this policy for as long as the account exists. Deactivating keeps it. Deleting removes it, except for the moderation log and a photo file that storage cleanup could not remove.</p>
+<p>We do not keep title-search text or Siri search text as a history. For You activity and Siri action receipts stay until you delete the account. We do not run a separate expiry job for them. The on-device under-13 block lasts 30 days or until you uninstall the app. The widget copy is cleared when you sign out of that phone.</p>
 
-<h2>Contact Us</h2>
-<p>If you have questions about this privacy policy, contact us at <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a>.</p>
+<h2>Third parties</h2>
+<p>We use the following services. We do not show ads, we do not use third-party tracking, and we do not sell your information.</p>
+<ul>
+  <li><strong>Supabase</strong> hosts authentication, the database, file storage, and the server functions that run Fliqs. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
+  <li><strong>TMDb</strong> supplies title information and images. Title search, including Siri title search, sends the search text to TMDb. Image requests load artwork from TMDb. We do not send your Fliqs profile to TMDb. This product uses the TMDb API but is not endorsed or certified by TMDb. <a href="https://www.themoviedb.org/privacy-policy">TMDb Privacy Policy</a></li>
+  <li><strong>TVMaze</strong> supplies episode air dates. We send show identifiers and name lookups, not your account. <a href="https://www.tvmaze.com/privacy">TVMaze Privacy Policy</a></li>
+  <li><strong>Apple</strong> handles Sign in with Apple, and Siri on your iPhone if you turn it on. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+  <li><strong>Google Sign-In</strong> handles Google sign-in if you choose it. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><strong>Expo</strong> delivers push notifications and app updates. A push uses your device token. An update check tells Expo which app version to send. <a href="https://expo.dev/privacy">Expo Privacy Policy</a></li>
+  <li><strong>Resend</strong> sends report notifications, including report details, to our moderation inbox, and sends you email if we remove your content or suspend your account. <a href="https://resend.com/legal/privacy-policy">Resend Privacy Policy</a></li>
+  <li><strong>YouTube</strong> plays trailers. Starting a trailer loads the video from YouTube, and YouTube receives that playback request. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><strong>Streaming apps and sites</strong> open when you follow a link out of Fliqs. From that point, their own privacy policy applies. We do not use affiliate links today.</li>
+</ul>
 
-<footer>© 2026 Fliqs. All rights reserved.</footer>
+<h2>Your choices and rights</h2>
+<ul>
+  <li>Set a profile to private. Ages 13–15 are private and cannot change that.</li>
+  <li>Choose leaderboard anonymity where your age allows it. Ages 13–15 stay anonymous.</li>
+  <li>Edit your profile, delete your own posts and comments, and hide a post from your own feed.</li>
+  <li>Remove a friend, or block someone. You can review blocks in settings.</li>
+  <li>Turn push notifications off, or sign out of that phone to stop them there.</li>
+  <li>Turn Siri off. That revokes Siri on that phone.</li>
+  <li>Skip the taste questionnaire. It is optional.</li>
+  <li>Deactivate or delete the account in the app.</li>
+  <li>Ask us for access to the personal information we hold, or ask us to correct it, by emailing <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a>. We may need to confirm the request is yours.</li>
+</ul>
+
+<h2>US state privacy rights</h2>
+<p>Depending on the state where you live, you may have the right to know, access, correct, or delete personal information we have about you, and to appeal if we deny a request. We do not sell personal information, and we do not share it for cross-context behavioral advertising. Email <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a> to use these rights. A parent or guardian of a teen user can use the same address.</p>
+
+<h2>Security</h2>
+<p>Fliqs stores account data with Supabase, using encrypted connections and row-level access rules. Sign-in tokens stay on your device. No service is perfectly secure. We take reasonable steps to protect your information.</p>
+
+<h2>Changes</h2>
+<p>We may update this policy. We will change the effective date at the top of this page. If a change is significant, we will tell you in the app. If a change requires a new agreement, the Terms describe when we ask you to accept it before you continue.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a>.</p>
+
+<footer>
+<p><a href="mailto:support@fliqsapp.com">support@fliqsapp.com</a> · <a href="terms.html">Terms of Service</a> · <a href="guidelines.html">Community Guidelines</a></p>
+<p>© 2026 Fliqs. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
